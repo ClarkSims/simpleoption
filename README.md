@@ -1,5 +1,10 @@
 This library is for calculating option prices, Greeks and implied volatilities.
 
+## Requirements
+
+- C++20 (built and tested with C++20, but should be compatible with C++14)
+- Linux: header files are installed to `/usr/local/include/simpleoption` and shared libraries (`.so`) are installed to `/usr/local/lib`
+
 demo_binomial_greeks_option_calc_alpha.cpp demonstrates how to:
  1) calculate the prices of a call and put as well of the Greeks
  2) calculate the price of a forward on the underlying, as well as the implied volatility given the price of the put and call
